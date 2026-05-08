@@ -136,8 +136,6 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 # Maven
 export PATH=/Users/ianmcbee/.sdkman/candidates/maven/current/bin:$PATH
 
-# Golang
-. ~/.asdf/plugins/golang/set-env.zsh
 
 # Add scripts to PATH 
 export PATH="$HOME/scripts:$PATH"

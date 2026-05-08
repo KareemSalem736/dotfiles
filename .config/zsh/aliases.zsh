@@ -73,3 +73,19 @@ alias dotfiles='cd '$dotfiles''
 # air (go)
 # -------------------------------------------------------------------
 alias air='$(go env GOPATH)/bin/air'
+
+# -------------------------------------------------------------------
+# git
+# -------------------------------------------------------------------
+alias gca='git commit -a'
+alias omsb='cd ~/Projects/oms-bridge/'
+alias s='git switch'
+alias sc='git switch -c'
+alias grp='git fetch --prune'
+alias gsd='git stash && git stash drop'
+alias gsc='git stash clear'
+alias cod='git switch develop && git pull'
+alias pull='git pull'
+alias push='git push'
+alias gp='git push -u origin HEAD'
+
