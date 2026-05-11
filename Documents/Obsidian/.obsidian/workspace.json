@@ -28,15 +28,10 @@
             "id": "00e5173cc7b3e2d4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2026-04-22.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-04-22"
+              "title": "New tab"
             }
           },
           {
@@ -111,8 +106,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -123,8 +118,8 @@
               "type": "git-view",
               "state": {},
               "pinned": true,
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -154,7 +149,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Daily Notes/2026-04-22.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -239,7 +233,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2026-04-22"
+              "title": "Graph view"
             }
           }
         ]
@@ -250,19 +244,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "graph:Open graph view": true,
+      "switcher:Open quick switcher": false,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-bible-reference:Bible Verse Lookup": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-read-it-later:ReadItLater: Create from clipboard": false,
-      "omnisearch:Omnisearch": false,
-      "graph:Open graph view": true,
-      "switcher:Open quick switcher": false,
-      "homepage:Open homepage": false,
-      "daily-notes:Open today's daily note": true,
-      "templates:Insert template": true,
-      "obsidian-git:Open Git source control": true,
-      "templater-obsidian:Templater": false,
-      "obsidian-bible-reference:Bible Verse Lookup": true
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "00e5173cc7b3e2d4",
