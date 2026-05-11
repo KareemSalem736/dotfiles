@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-05-11.md",
+                "file": "ReadItLater Inbox/Navigating HikariCP Connection Pool Issues When Your Database Says “No More Connections!”.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-11"
+              "title": "Navigating HikariCP Connection Pool Issues When Your Database Says “No More Connections!”"
             }
           }
         ],
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Daily Notes/2026-05-11.md",
+                "file": "ReadItLater Inbox/Navigating HikariCP Connection Pool Issues When Your Database Says “No More Connections!”.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -245,7 +245,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2026-05-11"
+              "title": "Graph of Navigating HikariCP Connection Pool Issues When Your Database Says “No More Connections!”"
             }
           }
         ]
@@ -273,8 +273,12 @@
   },
   "active": "21fa748ea6035321",
   "lastOpenFiles": [
-    "Templates/Task Template.md",
     "Daily Notes/2026-05-11.md",
+    "ReadItLater Inbox/Navigating HikariCP Connection Pool Issues When Your Database Says “No More Connections!”.md",
+    "ReadItLater Inbox/assets/Navigating HikariCP Connection Pool Issues When Your Database Says “No More Connections!”-3hMxZBC6ds.png",
+    "ReadItLater Inbox/assets",
+    "ReadItLater Inbox",
+    "Templates/Task Template.md",
     "Templates/Daily Notes.md",
     "Backlinks/Home Page/Home Page.md",
     "Daily Notes",
@@ -303,13 +307,11 @@
     "Daily Notes/2025/08-Aug/2025-08-27.md",
     "Daily Notes/2025/08-Aug/2025-08-25.md",
     "Daily Notes/2025/08-Aug/2025-08-18.md",
-    "Daily Notes/2025/08-Aug/2025-08-12.md",
     "Attachments/Pasted image 20260408104748.png",
     "Attachments/Pasted image 20260408104740.png",
     "Attachments/Pasted image 20260408104619.png",
     "Attachments/Pasted image 20260408104252.png",
     "Attachments/Pasted image 20260408104047.png",
-    "Attachments/Pasted image 20260408103933.png",
     "Daily Notes/2026/04 - Apr",
     "Daily Notes/2026/03 - Mar",
     "User Metrics Aggregation Query Planning.pdf",
@@ -317,8 +319,6 @@
     "Backlinks/Resources/Epomaker_Tide65_manual.pdf",
     "Backlinks/Resources",
     "Backlinks/Resources/A Principled Approach to GraphQL Query Cost Analysis.pdf",
-    "Daily Notes/2026/01 - Jan",
-    "Daily Notes/2026",
     "Untitled.canvas"
   ]
 }
