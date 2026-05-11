@@ -38,15 +38,10 @@
             "id": "b39275e1103cab32",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backlinks/Learnings/Vim Learnings.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Vim Learnings"
+              "title": "New tab"
             }
           }
         ],
