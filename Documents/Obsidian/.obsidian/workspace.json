@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-05-11.md",
+                "file": "Templates/Task Template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-11"
+              "title": "Task Template"
             }
           }
         ],
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Templates/Daily Notes.md",
+                "file": "Templates/Task Template.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -245,7 +245,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Daily Notes"
+              "title": "Graph of Task Template"
             }
           }
         ]
@@ -271,9 +271,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "045696930914ce8a",
+  "active": "21fa748ea6035321",
   "lastOpenFiles": [
     "Daily Notes/2026-05-11.md",
+    "Templates/Daily Notes.md",
     "Backlinks/Home Page/Home Page.md",
     "Daily Notes",
     "Backlinks/Learnings/Vim Learnings.md",
@@ -303,7 +304,6 @@
     "Daily Notes/2025/08-Aug/2025-08-18.md",
     "Daily Notes/2025/08-Aug/2025-08-12.md",
     "Backlinks/Learnings/elasticsearch.md",
-    "OMS/Logs/2025-07-02_indexAllNodes()_log_results_PR_1001.md",
     "Attachments/Pasted image 20260408104748.png",
     "Attachments/Pasted image 20260408104740.png",
     "Attachments/Pasted image 20260408104619.png",
