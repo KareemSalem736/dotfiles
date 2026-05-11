@@ -41,6 +41,27 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "83c97163085eb991",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "045696930914ce8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Daily Notes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Daily Notes"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Daily Notes/2026-05-11.md",
+                "file": "Templates/Daily Notes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -224,7 +245,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2026-05-11"
+              "title": "Graph of Daily Notes"
             }
           }
         ]
@@ -250,10 +271,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "21fa748ea6035321",
+  "active": "045696930914ce8a",
   "lastOpenFiles": [
-    "Backlinks/Home Page/Home Page.md",
     "Daily Notes/2026-05-11.md",
+    "Backlinks/Home Page/Home Page.md",
     "Daily Notes",
     "Backlinks/Learnings/Vim Learnings.md",
     "Daily Notes/2026-04-22.md",
