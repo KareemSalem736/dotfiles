@@ -54,6 +54,7 @@ zinit snippet OMZ::plugins/kitty
 zinit snippet OMZ::plugins/mvn
 zinit light 22peacemaker/zsh-make-complete
 zinit load asdf-vm/asdf
+. ~/.asdf/plugins/java/set-java-home.zsh
 
 
 # zstyles

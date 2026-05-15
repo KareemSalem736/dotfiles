@@ -20,7 +20,7 @@ return {
             runtimes = {
               {
                 name = "JavaSE-25",
-                path = "/Users/ianmcbee/.sdkman/candidates/java/current/bin/java",
+                path = os.getenv("JAVA_HOME") and (os.getenv("JAVA_HOME") .. "/bin/java") or vim.fn.exepath("java"),
                 default = true,
               },
             },
