@@ -111,8 +111,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -123,8 +123,8 @@
               "type": "git-view",
               "state": {},
               "pinned": true,
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -141,7 +141,8 @@
               "title": "Outgoing links from 2025-07-01"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "7ff7dc35f15af593",
@@ -258,10 +259,13 @@
       "templater-obsidian:Templater": false,
       "obsidian-bible-reference:Bible Verse Lookup": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-read-it-later:ReadItLater: Create from clipboard": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "00e5173cc7b3e2d4",
+  "active": "0d74c96b36952b1a",
   "lastOpenFiles": [
     "Daily Notes/2026-05-15.md",
     "Backlinks/Learnings/Vim Learnings.md",
