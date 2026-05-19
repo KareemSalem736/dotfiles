@@ -17,7 +17,6 @@
         <module>omsb-data-exchange</module>
         <module>omsb-nso-expiration</module>
         <module>omsb-jooq</module>
-        <module>omsb-node-change</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -59,7 +58,7 @@
         <dependency>
             <groupId>io.blackcape.atoms</groupId>
             <artifactId>atoms-common-java</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.3</version>
         </dependency>
     </dependencies>
     <dependencyManagement>
@@ -88,11 +87,6 @@
                 <groupId>dnsjava</groupId>
                 <artifactId>dnsjava</artifactId>
                 <version>3.6.4</version>
-            </dependency>
-            <dependency>
-                <groupId>io.github.resilience4j</groupId>
-                <artifactId>resilience4j-retry</artifactId>
-                <version>2.4.0</version>
             </dependency>
             <dependency>
                 <groupId>commons-io</groupId>

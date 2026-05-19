@@ -3,7 +3,7 @@
   <groupId>io.bc.omsb</groupId>
   <artifactId>oms-bridge</artifactId>
   <versioning>
-    <lastUpdated>20260508153105</lastUpdated>
+    <lastUpdated>20260519143316</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,7 +11,7 @@
       <snapshotVersion>
         <extension>pom</extension>
         <value>3.2.0-SNAPSHOT</value>
-        <updated>20260508153105</updated>
+        <updated>20260519143316</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
