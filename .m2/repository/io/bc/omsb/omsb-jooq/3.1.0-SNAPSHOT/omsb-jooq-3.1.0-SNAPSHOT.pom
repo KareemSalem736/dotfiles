@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>io.bc.omsb</groupId>
+        <artifactId>oms-bridge</artifactId>
+        <version>3.1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>omsb-jooq</artifactId>
+    <properties>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.locationtech.jts.io</groupId>
+            <artifactId>jts-io-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jooq</groupId>
+            <artifactId>jooq</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jooq</groupId>
+            <artifactId>jooq-meta</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jooq</groupId>
+            <artifactId>jooq-codegen</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jooq</groupId>
+            <artifactId>jooq-postgres-extensions</artifactId>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.jooq</groupId>
+                <artifactId>jooq-codegen-maven</artifactId>
+                <version>3.20.4</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.jooq</groupId>
+                        <artifactId>jooq-postgres-extensions</artifactId>
+                        <version>${jooq.version}</version>
+                    </dependency>
+                </dependencies>
+                <configuration>
+                    <jdbc>
+                        <driver>org.postgresql.Driver</driver>
+                        <url>jdbc:postgresql://localhost:5432/omsb_db?user=postgres&amp;password=omsbpw</url>
+                        <user>username</user>
+                        <password>password</password>
+                    </jdbc>
+                    <generator>
+                        <name>org.jooq.codegen.JavaGenerator</name>
+                        <strategy>
+                            <name>io.bc.jooq.JooqNamingStrategy</name>
+                            <java>
+                                package io.bc.jooq;
+
+                                import org.jooq.codegen.DefaultGeneratorStrategy;
+                                import org.jooq.meta.Definition;
+                                import org.jooq.meta.TableDefinition;
+
+                                public class JooqNamingStrategy extends DefaultGeneratorStrategy {
+                                @Override
+                                public String getJavaClassName(Definition definition, Mode mode) {
+                                // Initialize the result to the base name
+                                String result = super.getJavaClassName(definition, mode);
+
+                                // Append "Table" for tables in the "public" schema
+                                if (definition instanceof TableDefinition
+                                &amp;&amp; "public".equalsIgnoreCase(definition.getSchema().getName())) {
+                                if (mode == Mode.DEFAULT) {
+                                result = result + "Table";
+                                }
+                                }
+
+                                // Return the result
+                                return result;
+                                }
+                                }
+                            </java>
+                        </strategy>
+                        <database>
+                            <name>org.jooq.meta.postgres.PostgresDatabase</name>
+                            <inputSchema>public</inputSchema>
+                            <excludes>
+                                activity_observation_link
+                                | assessment_object_link
+                                | comment_object_link
+                                | databasechangelog
+                                | databasechangeloglock
+                                | object_list_node_link
+                                | object_list_sub_list_link
+                                | scheduled_tasks
+                                | spatial_ref_sys
+                            </excludes>
+                            <customTypes>
+                                <customType>
+                                    <name>Geometry</name>
+                                    <type>org.locationtech.jts.geom.Geometry</type>
+                                    <binding>io.bc.omsb.jooq.bindings.GeometryBinding</binding>
+                                </customType>
+                            </customTypes>
+                            <forcedTypes>
+                                <forcedType>
+                                    <userType>org.jooq.postgres.extensions.types.Hstore</userType>
+                                    <binding>org.jooq.postgres.extensions.bindings.HstoreBinding</binding>
+                                    <includeTypes>hstore</includeTypes>
+                                    <priority>-2147483648</priority>
+                                </forcedType>
+                                <forcedType>
+                                    <name>Geometry</name>
+                                    <types>geometry</types>
+                                </forcedType>
+                            </forcedTypes>
+                        </database>
+                        <target>
+                            <packageName>io.bc.omsb.jooq.generated</packageName>
+                            <directory>${basedir}/src/main/java</directory>
+                        </target>
+                        <generate>
+                            <spatialTypes>false</spatialTypes>
+                        </generate>
+                    </generator>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

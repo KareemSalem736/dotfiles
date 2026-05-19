@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>io.bc.omsb</groupId>
+  <artifactId>omsb-common</artifactId>
+  <versioning>
+    <lastUpdated>20251215174756</lastUpdated>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>Grimlock-SNAPSHOT</value>
+        <updated>20251215174756</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>Grimlock-SNAPSHOT</value>
+        <updated>20251215174756</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>Grimlock-SNAPSHOT</version>
+</metadata>

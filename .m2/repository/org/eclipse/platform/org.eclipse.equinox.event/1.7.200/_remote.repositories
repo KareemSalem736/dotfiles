@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Mar 18 11:40:26 EDT 2026
+org.eclipse.equinox.event-1.7.200.jar>central=
+org.eclipse.equinox.event-1.7.200.pom>central=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 13 14:16:50 EDT 2026
+kafka-storage-3.9.2-sources.jar>central=
+kafka-storage-3.9.2.jar>central=
+kafka-storage-3.9.2.pom>central=
