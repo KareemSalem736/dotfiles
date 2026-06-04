@@ -162,3 +162,6 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 export EDITOR=nvim
 export VISUAL=nvim
+
+# opencode
+export PATH=/home/main/.opencode/bin:$PATH

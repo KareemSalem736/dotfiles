@@ -78,7 +78,7 @@ alias air='$(go env GOPATH)/bin/air'
 # git
 # -------------------------------------------------------------------
 alias gca='git commit -a'
-alias omsb='cd ~/Projects/oms-bridge/'
+alias dai='cd /lab/projects/distributed-ai/'
 alias s='git switch'
 alias sc='git switch -c'
 alias grp='git fetch --prune'
