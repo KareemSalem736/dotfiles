@@ -11,15 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Guide Id update.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Guide Id update"
+              "title": "New tab"
             }
           }
         ]
@@ -121,7 +116,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Guide Id update.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -206,7 +200,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Guide Id update"
+              "title": "Graph view"
             }
           }
         ]
