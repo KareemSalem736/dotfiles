@@ -77,8 +77,8 @@ alias air='$(go env GOPATH)/bin/air'
 # -------------------------------------------------------------------
 # git
 # -------------------------------------------------------------------
-alias gca='git commit -a'
-alias dai='cd /lab/projects/distributed-ai/'
+alias gca='git add . && git commit -m'
+alias ai='cd /lab/projects/distributed-ai/'
 alias s='git switch'
 alias sc='git switch -c'
 alias grp='git fetch --prune'
@@ -88,4 +88,4 @@ alias cod='git switch develop && git pull'
 alias pull='git pull'
 alias push='git push'
 alias gp='git push -u origin HEAD'
-alias clip='2>&1 | xclip -selection clipboard'
+alias clip='| 2>&1 | xclip -selection clipboard'

@@ -22,5 +22,8 @@ updatep10k() {
   cd ~/.local/share/zinit/plugins/romkatv---powerlevel10k;
   git pull;
   cd ~;
+}
 
+clipcmd() {
+  "$@" 2>&1 | xclip -selection clipboard
 }
