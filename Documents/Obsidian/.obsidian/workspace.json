@@ -55,13 +55,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DAI  result output.md",
+                "file": "Daily Notes/2026-06-24.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "DAI  result output"
+              "title": "2026-06-24"
             }
           }
         ],
@@ -75,7 +75,8 @@
     "type": "split",
     "children": [],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0cf49f9853da1c92",
@@ -163,7 +164,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "DAI  result output.md",
+                "file": "Daily Notes/2026-06-24.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -248,7 +249,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of DAI  result output"
+              "title": "Graph of 2026-06-24"
             }
           }
         ]
@@ -275,9 +276,10 @@
   },
   "active": "2e59b57a0b5ceb84",
   "lastOpenFiles": [
+    "DAI  result output.md",
+    "Daily Notes/2026-06-24.md",
     "Daily Notes/2026-06-17.md",
     "Backlinks/Home Page/Home Page.md",
-    "DAI  result output.md",
     "Daily Notes/2026-05-18.md",
     "Daily Notes/2026-05-15.md",
     "Backlinks/Learnings/Vim Learnings.md",
@@ -304,7 +306,6 @@
     "Daily Notes/2025/08-Aug/2025-08-29.md",
     "Daily Notes/2025/08-Aug/2025-08-27.md",
     "Daily Notes/2025/08-Aug/2025-08-25.md",
-    "Daily Notes/2025/08-Aug/2025-08-18.md",
     "Attachments/Pasted image 20260408104748.png",
     "Attachments/Pasted image 20260408104740.png",
     "Attachments/Pasted image 20260408104619.png",

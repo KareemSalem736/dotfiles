@@ -24,6 +24,13 @@ updatep10k() {
   cd ~;
 }
 
-clipcmd() {
+clip() {
   "$@" 2>&1 | xclip -selection clipboard
+}
+
+gemma12() {
+  docker compose \
+    -f /lab/models/vllm/gemma4/12b-w4a16-ct/compose.yaml \
+    --profile gemma-12b \
+    "$@"
 }
