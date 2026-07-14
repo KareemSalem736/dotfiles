@@ -1,7 +1,7 @@
-Arielle - 
-Dayo - Working on actuator and doddis
-Garret - 
-Isaac - 
+Arielle - Picked up new ticket
+Dayo - Working on actuator and dodiis email
+Garret - High side works, needs teams access
+Isaac - Finished docker-build, working on makefile update, 
 
 Charlie is out on PTO 
 Travis is out for Polygraph exam
