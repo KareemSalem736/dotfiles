@@ -5,4 +5,4 @@ Isaac -
 
 Charlie is out on PTO 
 Travis is out for Polygraph exam
-API Team 1 is focusing on 
+API Team 1 is focusing on getting AIDE access, Dev Desktop, 
