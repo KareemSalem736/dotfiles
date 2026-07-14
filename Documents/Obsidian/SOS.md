@@ -1,5 +1,5 @@
 Arielle - 
-Dayo - 
+Dayo - Working on actuator and doddis
 Garret - 
 Isaac - 
 
