@@ -118,9 +118,6 @@ setopt hist_find_no_dups
 # Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# awrit 
-# export PATH="~/awrit/.bun" #todo broken need to figure out
-
 # poetry
 #export PATH="/Users/kareemsalem/.local/bin"
 
