@@ -128,13 +128,13 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 # export PATH="~/awrit/.bun" #todo broken need to figure out
 
 # poetry
-#export PATH="/Users/ianmcbee/.local/bin"
+#export PATH="/Users/kareemsalem/.local/bin"
 
 # Java
 # . ~/.asdf/plugins/java/set-java-home.zsh
 
 # Maven
-export PATH=/Users/ianmcbee/.sdkman/candidates/maven/current/bin:$PATH
+export PATH=/Users/kareemsalem/.sdkman/candidates/maven/current/bin:$PATH
 
 
 # Add scripts to PATH 
