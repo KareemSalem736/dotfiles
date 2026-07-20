@@ -118,8 +118,10 @@ setopt hist_find_no_dups
 [[ -f ~/.config/zsh/blackcape_aliases.zsh ]] && source ~/.config/zsh/blackcape_aliases.zsh
 
 # Homebrew
-export PATH="/opt/homebrew/bin:$PATH"
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Maven
+export PATH=$HOME/.sdkman/candidates/maven/current/bin:$PATH
 
 # ASDF
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
@@ -129,10 +131,6 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 # poetry
 #export PATH="/Users/kareemsalem/.local/bin"
-
-# Java
-# . ~/.asdf/plugins/java/set-java-home.zsh
-
 
 # Add scripts to PATH 
 export PATH="$HOME/scripts:$PATH"
