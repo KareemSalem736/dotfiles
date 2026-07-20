@@ -133,9 +133,6 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 # Java
 # . ~/.asdf/plugins/java/set-java-home.zsh
 
-# Maven
-export PATH=/Users/kareemsalem/.sdkman/candidates/maven/current/bin:$PATH
-
 
 # Add scripts to PATH 
 export PATH="$HOME/scripts:$PATH"
