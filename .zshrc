@@ -118,15 +118,6 @@ setopt hist_find_no_dups
 # Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# Maven
-# export PATH="$HOME/.sdkman/candidates/maven/current/bin:$PATH"
-
-# Java
-# export PATH="$HOME/.sdkman/candidates/java/current/bin/java"
-
-# ASDF
-#export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
-
 # awrit 
 # export PATH="~/awrit/.bun" #todo broken need to figure out
 
