@@ -114,17 +114,15 @@ setopt hist_find_no_dups
 [[ -f ~/.config/zsh/aliases.zsh ]] && source ~/.config/zsh/aliases.zsh
 # Functions.zsh
 [[ -f ~/.config/zsh/functions.zsh ]] && source ~/.config/zsh/functions.zsh
-# blackcape_aliases.zsh
-[[ -f ~/.config/zsh/blackcape_aliases.zsh ]] && source ~/.config/zsh/blackcape_aliases.zsh
 
 # Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Maven
-export PATH=$HOME/.sdkman/candidates/maven/current/bin:$PATH
+#export PATH=$HOME/.sdkman/candidates/maven/current/bin:$PATH
 
 # ASDF
-export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+#export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 # awrit 
 # export PATH="~/awrit/.bun" #todo broken need to figure out
@@ -153,9 +151,10 @@ export NVM_DIR="$HOME/.nvm"
     [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"
     [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
