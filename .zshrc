@@ -147,7 +147,12 @@ export NVM_DIR="$HOME/.nvm"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+# SDKMAN
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$SDKMAN_DIR/bin/sdkman-init.sh" ]] && \
   source "$SDKMAN_DIR/bin/sdkman-init.sh"
+
+# Fix macOS bundle layout for 25.0.2-open
+export JAVA_HOME="$SDKMAN_DIR/candidates/java/current/Contents/Home"
+export PATH="$JAVA_HOME/bin:$PATH"
 
