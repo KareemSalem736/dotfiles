@@ -125,11 +125,11 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH="$HOME/scripts:$PATH"
 
 # fuck command
-eval $(thefuck --alias fuck)
+# eval $(thefuck --alias fuck)
 zinit snippet OMZ::plugins/thefuck
 
 # fzf settings
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source <(fzf --zsh)
 
 # grc
@@ -139,8 +139,9 @@ bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
 
 export NVM_DIR="$HOME/.nvm"
-    [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"
-    [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
+[[ -s "/opt/homebrew/opt/nvm/nvm.sh" ]] && source "/opt/homebrew/opt/nvm/nvm.sh"
+[[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ]] && \
+  source "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
