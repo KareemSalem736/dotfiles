@@ -1,6 +1,6 @@
 # Switching to arm64 to x86 quickly
-alias x86="$env /usr/bin/arch -x86_64 /bin/zsh ---login"
-alias arm="$env /usr/bin/arch -arm64 /bin/zsh ---login"
+alias x86='env /usr/bin/arch -x86_64 /bin/zsh --login'
+alias arm='env /usr/bin/arch -arm64 /bin/zsh --login'
 
 # -------------------------------------------------------------------
 # Kitty Aliases
@@ -32,18 +32,10 @@ alias remove-node_modules='rm -rf node_modules; rm package-lock.json'
 # -------------------------------------------------------------------
 # EZA Commands to replace ls
 # -------------------------------------------------------------------
-alias ld='eza -lD --header --group-directories-first --icons=always'
-alias lf='eza -lF --header --color=always --group-directories-first --icons=always | grep -v /'
-alias lh='eza -dl .* --group-directories-first --icons=always'
-alias ll='eza -al --header --group-directories-first --icons=always'
-alias ls='eza -alF --header --color=always --sort=size --group-directories-first --icons=always | grep -v /'
-alias lt='eza -al --header --sort=modified --group-directories-first --icons=always'
-
-alias l='eza --git-ignore --group-directories-first --icons=always $eza_params'
-alias llm='eza --all --header --long --sort=modified --group-directories-first --icons=always $eza_params'
-alias la='eza -lbhHigUmuSa --group-directories-first --icons=always'
-alias lx='eza -lbhHigUmuSa@ --group-directories-first --icons=always'
-alias tree='eza --tree $eza_params'
+alias ls='eza --all --classify --group-directories-first --icons=always'
+alias ll='eza --all --long --header --group-directories-first --icons=always'
+alias lf='eza --long --only-files --header --icons=always'
+alias ld='eza --long --only-dirs --header --group-directories-first --icons=always'
 
 # -------------------------------------------------------------------
 # Bat
@@ -54,7 +46,6 @@ alias bathelp='bat --plain --language=help'
 #alias -g -- --help='--help 2>&1 | bat --language=help --style=plain'
 alias man='batman'
 alias ripgrep='batgrep'
-alias rg='batgrep'
 
 # -------------------------------------------------------------------
 # IDEA
