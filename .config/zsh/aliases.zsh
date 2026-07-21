@@ -1,4 +1,7 @@
-# Switching to arm64 to x86 quickly
+# -------------------------------------------------------------------
+# System
+# -------------------------------------------------------------------
+alias rez='exec zsh'
 alias x86='env /usr/bin/arch -x86_64 /bin/zsh --login'
 alias arm='env /usr/bin/arch -arm64 /bin/zsh --login'
 
