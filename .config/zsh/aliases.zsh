@@ -80,3 +80,10 @@ alias pull='git pull'
 alias push='git push'
 alias gp='git push -u origin HEAD'
 
+# -------------------------------------------------------------------
+# ATOMS
+# -------------------------------------------------------------------
+alias ac='cd ~/Projects/atoms-core/'
+alias aa='cd ~/Projects/atoms-access-service/'
+alias au='cd ~/Projects/atoms-user-service/'
+
