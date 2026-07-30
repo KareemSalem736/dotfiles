@@ -11,3 +11,5 @@ Primary working hours
 What do bonuses and salary increase look like?
 Any travel expected?
 
+When do you believe you'll make a selection by? 
+Do you have any concerns with moving me forward 
