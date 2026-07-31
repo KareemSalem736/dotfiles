@@ -1,0 +1,9 @@
+[user]
+    name = Kareem Salem
+    email = kareem.salem@blackcape.io
+
+[init]
+    defaultBranch = main
+
+[core]
+    editor = nvim

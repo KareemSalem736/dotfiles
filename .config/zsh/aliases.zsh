@@ -4,6 +4,8 @@
 alias rez='exec zsh'
 alias x86='env /usr/bin/arch -x86_64 /bin/zsh --login'
 alias arm='env /usr/bin/arch -arm64 /bin/zsh --login'
+alias update='zinit self-update; zinit update; brew update; brew upgrade -y; brew cu -a -f -y; brew cleanup;'
+alias update-fix='zinit compinit; zinit cclear;'
 
 # -------------------------------------------------------------------
 # Kitty Aliases
