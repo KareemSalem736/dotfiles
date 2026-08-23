@@ -156,3 +156,6 @@ export SDKMAN_DIR="$HOME/.sdkman"
 export JAVA_HOME="$SDKMAN_DIR/candidates/java/current/Contents/Home"
 export PATH="$JAVA_HOME/bin:$PATH"
 
+
+# Added by cua-driver-rs installer — see https://github.com/trycua/cua
+export PATH="/Users/kareemsalem/.local/bin:$PATH"
