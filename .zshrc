@@ -159,3 +159,8 @@ export PATH="$JAVA_HOME/bin:$PATH"
 
 # Added by cua-driver-rs installer — see https://github.com/trycua/cua
 export PATH="/Users/kareemsalem/.local/bin:$PATH"
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/kareemsalem/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
