@@ -7,3 +7,5 @@
 
 [core]
     editor = nvim
+[credential]
+	helper = osxkeychain
