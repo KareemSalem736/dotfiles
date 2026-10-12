@@ -9,4 +9,4 @@ ENT_COnnect_rul to connect to
 log into aide then gitlab then dias connector under aac-dias-connector project
 swagger.yaml under api - model them as java records, java rest , Get request for user, hardcode java list.
 swagger.yml is source of truth
-csv
+csv file may need to be adapted.
