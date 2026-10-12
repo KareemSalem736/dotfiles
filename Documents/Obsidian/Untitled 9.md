@@ -6,4 +6,7 @@ lums is aac in dev mode
 Need to create a connector to connect to aac on SIPR that takes in user information and provides it to aac.
 log into aide to reference the dias connector
 ENT_COnnect_rul to connect to 
-log into aide then gitlab then dias connector under aac-dias-connector
+log into aide then gitlab then dias connector under aac-dias-connector project
+swagger.yaml under api - model them as java records, java rest , Get request for user, hardcode java list.
+swagger.yml is source of truth
+csv
