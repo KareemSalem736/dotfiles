@@ -4,3 +4,4 @@ aac just gets the user information, does not hold it. DIAS is only available on 
 SIPR does not have DIAS, including the AAC2 connector/abstraction
 lums is aac in dev mode
 Need to create a connector to connect to aac on SIPR that takes in user information and provides it to aac.
+log into aide to reference the dias connector
